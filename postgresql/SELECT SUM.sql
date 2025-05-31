@@ -1,0 +1,1 @@
+SELECT SUM(quantity) from order_details;

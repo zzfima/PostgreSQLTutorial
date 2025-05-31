@@ -1,0 +1,6 @@
+DROP TABLE CARS;
+
+SELECT
+	*
+FROM
+	CARS;

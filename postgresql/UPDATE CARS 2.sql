@@ -1,0 +1,12 @@
+UPDATE CARS
+SET
+	BRAND = 'honda',
+	MODEL = 'jazz',
+	COLOR = 'blue'
+WHERE
+	YEAR = 1999;
+
+SELECT
+	*
+FROM
+	CARS;

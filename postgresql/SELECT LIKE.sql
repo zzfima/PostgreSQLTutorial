@@ -1,0 +1,6 @@
+SELECT
+	*
+FROM
+	CUSTOMERS
+WHERE
+	CITY LIKE '_r%';

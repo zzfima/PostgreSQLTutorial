@@ -1,0 +1,3 @@
+UPDATE CARS
+SET
+	COLOR = 'black'
