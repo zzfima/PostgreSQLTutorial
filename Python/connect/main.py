@@ -15,7 +15,7 @@ try:
     cursor = conn.cursor()
 
     # Execute query
-    cursor.execute("SELECT * FROM language;")
+    cursor.execute("SELECT FIRST_NAME, LAST_NAME FROM CUSTOMER WHERE ACTIVE = 0;")
 
     # Fetch and display results
     rows = cursor.fetchall()
